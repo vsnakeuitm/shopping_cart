@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php   
+		$conn = new mysqli('sql12.freemysqlhosting.net', 'sql12238953', 'SfPa6nGPnm', 'sql12238953');
+?>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -60,7 +63,7 @@
 		//end info message
 		//fetch our products	
 		//connection
-		$conn = new mysqli('sql12.freemysqlhosting.net', 'sql12238953', 'SfPa6nGPnm', 'sql12238953');
+		<!--$conn = new mysqli('sql12.freemysqlhosting.net', 'sql12238953', 'SfPa6nGPnm', 'sql12238953');-->
 
 		$sql = "SELECT * FROM products";
 		$query = $conn->query($sql);
