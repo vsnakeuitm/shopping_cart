@@ -70,7 +70,7 @@
 		//end info message
 		//fetch our products	
 		//connection
-		$conn = new mysqli('localhost', 'root', '', 'database');
+		$conn = new mysqli('sql12.freemysqlhosting.net', 'sql12238953', 'SfPa6nGPnm', 'sql12238953');
 
 		$sql = "SELECT * FROM products";
 		$query = $conn->query($sql);
